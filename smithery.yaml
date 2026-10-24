@@ -1,0 +1,7 @@
+name: genpark-agent-schema-validation-pydantic-lite-skill
+description: Zero-dependency lightweight Schema validator enforcing type safety, required keys, and bounds checking on tool arguments
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
